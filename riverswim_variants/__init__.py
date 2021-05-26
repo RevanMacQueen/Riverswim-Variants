@@ -11,3 +11,9 @@ register(
     entry_point='riverswim_variants.envs:StochasticRiverSwimEnv',
     max_episode_steps=20,
 )
+
+register(
+    id='skewed-stochastic-riverswim-v0',
+    entry_point='riverswim_variants.envs:SkewedStochasticRiverSwimEnv',
+    max_episode_steps=20,
+)

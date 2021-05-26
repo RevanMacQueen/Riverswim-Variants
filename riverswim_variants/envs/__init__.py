@@ -1,2 +1,3 @@
 from riverswim_variants.envs.scaled_riverswim import ScaledRiverSwimEnv
 from riverswim_variants.envs.stochastic_riverswim import StochasticRiverSwimEnv
+from riverswim_variants.envs.skewed_stochastic_riverswim import SkewedStochasticRiverSwimEnv
